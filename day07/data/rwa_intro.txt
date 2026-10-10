@@ -1,0 +1,28 @@
+Real World Assets (RWA) refer to physical or traditional
+financial assets that are represented on blockchain networks.
+Examples include government bonds, private credit, real estate,
+commodities, and invoices.
+
+Tokenization allows ownership or economic rights associated
+with these assets to be represented using blockchain tokens.
+This may improve settlement efficiency, transparency, and
+accessibility for investors.
+
+RWA products may involve several types of risk. Credit risk
+arises when the borrower or issuer cannot meet its financial
+obligations. Investors may lose part or all of their expected
+payments.
+
+Liquidity risk occurs when investors cannot easily buy or sell
+the tokenized asset. A limited secondary market may make it
+difficult to exit a position at a reasonable price.
+
+Smart contract risk comes from vulnerabilities or errors in
+blockchain software. A bug or exploit may cause assets to be
+lost, frozen, or transferred incorrectly.
+
+RWA products may also involve legal and regulatory risk.
+Token ownership does not automatically guarantee enforceable
+legal ownership of the underlying real-world asset. The legal
+structure, jurisdiction, custody arrangement, and investor
+rights must therefore be examined carefully.
