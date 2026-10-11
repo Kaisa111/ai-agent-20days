@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Why can't I cash out my digital investment quickly?",
+    "relevant_chunk_ids": [4]
+  },
+  {
+    "id": 2,
+    "question": "What if the company that owes me money goes bankrupt?",
+    "relevant_chunk_ids": [3]
+  },
+  {
+    "id": 3,
+    "question": "Can hackers steal my assets because of faulty blockchain code?",
+    "relevant_chunk_ids": [5]
+  },
+  {
+    "id": 4,
+    "question": "Does having a digital certificate mean I legally own the property?",
+    "relevant_chunk_ids": [6]
+  },
+  {
+    "id": 5,
+    "question": "How can putting traditional investments on a blockchain improve transactions?",
+    "relevant_chunk_ids": [2]
+  },
+  {
+    "id": 6,
+    "question": "What kinds of things from the traditional economy can be represented on-chain?",
+    "relevant_chunk_ids": [1]
+  },
+  {
+    "id": 7,
+    "question": "Why might there be no buyers when I want to sell?",
+    "relevant_chunk_ids": [4]
+  },
+  {
+    "id": 8,
+    "question": "What happens when the software controlling digital ownership has a bug?",
+    "relevant_chunk_ids": [5]
+  }
+]

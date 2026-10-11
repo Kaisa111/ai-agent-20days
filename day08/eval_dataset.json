@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is RWA?",
+    "relevant_chunk_ids": [1]
+  },
+  {
+    "id": 2,
+    "question": "What are the benefits of tokenization?",
+    "relevant_chunk_ids": [2]
+  },
+  {
+    "id": 3,
+    "question": "What happens if a borrower cannot repay?",
+    "relevant_chunk_ids": [3]
+  },
+  {
+    "id": 4,
+    "question": "Can investors easily sell tokenized assets?",
+    "relevant_chunk_ids": [4]
+  },
+  {
+    "id": 5,
+    "question": "What risks arise from smart contract vulnerabilities?",
+    "relevant_chunk_ids": [5]
+  },
+  {
+    "id": 6,
+    "question": "Does token ownership guarantee legal ownership?",
+    "relevant_chunk_ids": [6]
+  },
+  {
+    "id": 7,
+    "question": "What are the legal and regulatory risks of RWA?",
+    "relevant_chunk_ids": [6]
+  },
+  {
+    "id": 8,
+    "question": "Why might it be difficult to exit an RWA investment?",
+    "relevant_chunk_ids": [4]
+  },
+  {
+    "id": 9,
+    "question": "What could cause investors to lose expected payments?",
+    "relevant_chunk_ids": [3]
+  },
+  {
+    "id": 10,
+    "question": "What are examples of real-world assets?",
+    "relevant_chunk_ids": [1]
+  }
+]
