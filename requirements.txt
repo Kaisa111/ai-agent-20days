@@ -3,3 +3,5 @@ uvicorn
 requests
 openai
 python-dotenv
+pydantic
+langchain-core

@@ -31,7 +31,7 @@ def main():
     if args.limit < 1:
         parser.error("--limit must be at least 1")
 
-    print("\n[1/4] Running RWA research pipeline...")
+    print("\n[1/5] Running RWA research pipeline...")
 
     pipeline_result = run_llm_quality_pipeline(
         question=args.question,

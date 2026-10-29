@@ -3,5 +3,9 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
 # Generated RWA research reports
 day18/reports/
+
+# Generated benchmark results
+day19/results/
