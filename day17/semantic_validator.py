@@ -7,6 +7,8 @@ from pydantic import BaseModel, Field
 
 from day17.schemas import ResearchEvidence
 
+from common.token_tracker import record_usage
+
 
 load_dotenv()
 
@@ -76,6 +78,8 @@ def validate_semantically(
         ),
         text_format=SemanticJudgment,
     )
+
+    record_usage(response)
 
     judgment = response.output_parsed
 

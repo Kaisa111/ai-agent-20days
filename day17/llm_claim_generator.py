@@ -3,6 +3,8 @@ import json
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
+from common.token_tracker import record_usage
+
 
 class TVLClaim(BaseModel):
     protocol_name: str
@@ -46,6 +48,8 @@ def generate_tvl_claims(
         ),
         text_format=TVLClaimReport,
     )
+
+    record_usage(response)
 
     if response.output_parsed is None:
         raise RuntimeError(

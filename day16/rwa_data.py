@@ -1,5 +1,5 @@
 
-import requests
+from common.http_retry import get_json_with_retry
 
 
 API_URL = "https://api.llama.fi/protocols"
@@ -8,13 +8,11 @@ API_URL = "https://api.llama.fi/protocols"
 def get_rwa_protocols(limit=10):
     """Fetch and rank RWA protocols by TVL."""
 
-    response = requests.get(
+    protocols = get_json_with_retry(
         API_URL,
-        timeout=30,
+        max_attempts=3,
+        timeout=(10, 20),
     )
-    response.raise_for_status()
-
-    protocols = response.json()
 
     rwa_protocols = []
 
